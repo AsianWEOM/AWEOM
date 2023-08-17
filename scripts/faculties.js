@@ -23,7 +23,8 @@ function createFacultyCard(name, affiliation, imageSrc, personalPage) {
 function addFacultyCards(sectionId, facultyData) {
   const section = document.getElementById(sectionId);
   const row = document.createElement("div");
-  row.className = "row";
+  // row.className = "row";
+  row.className = "row row-cols-2 row-cols-md-3 row-cols-lg-4";
   facultyData.forEach((data) => {
     const card = createFacultyCard(
       data.name,
