@@ -24,7 +24,7 @@ function createFacultyCard(name, affiliation, imageSrc, personalPage, needShorte
 function addFacultyCards(sectionId, facultyData) {
   const section = document.getElementById(sectionId);
   const row = document.createElement("div");
-  const needShortendAffliation = window.innerWidth < 500; 
+  const needShortendAffliation = window.innerWidth < 1000; 
 
   // row.className = "row";
   row.className = "row row-cols-2 row-cols-md-3 row-cols-lg-4";
