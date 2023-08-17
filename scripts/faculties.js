@@ -1,5 +1,6 @@
-function createFacultyCard(name, affiliation, imageSrc, personalPage) {
+function createFacultyCard(name, affiliation, imageSrc, personalPage, needShortendAffliation) {
   const card = document.createElement("div");
+  const shortenedAffiliation = needShortendAffliation ? `${affiliation.substring(0, 15)}...` : affiliation;
   card.className = "col-md-3 mb-4";
   card.innerHTML = `
         <div class="card faculty-card">
@@ -12,7 +13,7 @@ function createFacultyCard(name, affiliation, imageSrc, personalPage) {
             </div>
             <div class="card-body">
                 <h5 class="card-title"><a href="${personalPage}" target="_blank">${name}</a></h5>
-                <p class="card-text">${affiliation}</p>
+                <p class="card-text">${shortenedAffiliation}</p>
             </div>
         </div>
     `;
@@ -23,6 +24,8 @@ function createFacultyCard(name, affiliation, imageSrc, personalPage) {
 function addFacultyCards(sectionId, facultyData) {
   const section = document.getElementById(sectionId);
   const row = document.createElement("div");
+  const needShortendAffliation = window.innerWidth < 500; 
+
   // row.className = "row";
   row.className = "row row-cols-2 row-cols-md-3 row-cols-lg-4";
   facultyData.forEach((data) => {
@@ -30,7 +33,8 @@ function addFacultyCards(sectionId, facultyData) {
       data.name,
       data.affiliation,
       data.imageSrc,
-      data.personalPage
+      data.personalPage,
+      needShortendAffliation
     );
     row.appendChild(card);
   });
