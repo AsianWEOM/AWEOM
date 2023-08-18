@@ -42,7 +42,7 @@
   font-size: 0.9rem;
   color: #777;
   margin-bottom: 1rem;
-  height: 30px;
+  height: 32px;
 }
 
 .faculty-card .card-title a {
@@ -64,7 +64,13 @@
 
 @media (max-width: 1000px) {
   .faculty-card .card-text {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .faculty-card .card-text {
+    height: 20px;
   }
 }
 
