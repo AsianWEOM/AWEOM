@@ -55,14 +55,14 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .faculty-card .card-title {
     font-size: 0.8rem;
     margin-bottom: 0;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .faculty-card .card-text {
     font-size: 0.6rem;
   }
