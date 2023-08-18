@@ -10,13 +10,13 @@
   background: linear-gradient(to bottom, #f5faff, #e2ebff);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1600px) {
   .container_section {
     padding: 20px 10vw;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .container_section {
     padding: 20px 0;
   }
