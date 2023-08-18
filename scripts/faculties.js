@@ -1,6 +1,7 @@
 function createFacultyCard(name, affiliation, imageSrc, personalPage, needShortendAffliation) {
   const card = document.createElement("div");
-  const shortenedAffiliation = needShortendAffliation ? `${affiliation.substring(0, 15)}...` : affiliation;
+  const max_affiliation_length = 20;
+  const shortenedAffiliation = needShortendAffliation ? affiliation.length > max_affiliation_length ? affiliation.substring(0, max_affiliation_length) + "..." : affiliation : affiliation;
   card.className = "col-md-3 mb-4";
   card.innerHTML = `
         <div class="card faculty-card">
