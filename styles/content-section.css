@@ -1,0 +1,19 @@
+.container_section {
+  padding: 20px 18vw;
+}
+
+.blue_bg {
+  background-color: #f5faff;
+}
+
+@media (max-width: 1200px) {
+  .container_section {
+    padding: 20px 15vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .container_section {
+    padding: 20px 0;
+  }
+}

@@ -13,176 +13,258 @@
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/nav.css" />
     <link rel="stylesheet" href="styles/budget-breakdown.css" />
+    <link rel="stylesheet" href="styles/carousel.css" />
+    <link rel="stylesheet" href="styles/content-section.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap"
+    />
   </head>
 
   <body>
-    <header class="header-container">
-      <div class="header-content">
-        <h1 class="header-title">
-          Asian Workshop on Empirical Operations Management
-        </h1>
-        <p class="header-subtitle">亚洲运营管理实证研究会</p>
+    <div class="carousel-overlay">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <!-- <img src="logo.png" alt="Logo" /> -->
+            <span class="logo-text">Workshop</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#time">Time</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#travel-hotel">Travel and Hotel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#submission">Submission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#agenda">Agenda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#keynote">Keynote</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#organizing-faculty"
+                  >Organizing Faculty</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#workshop-faculty"
+                  >Workshop Faculty</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#workshop-participants"
+                  >Workshop Participants</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#budget-breakdown"
+                  >Budget Breakdown</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carouselExample"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li data-bs-target="#carouselExample" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgs/c2.jpeg" alt="Image 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/X.jpeg" alt="Image 2" />
+          </div>
+        </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#carouselExample"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExample"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
       </div>
-    </header>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#"> <!-- Probably can add a logo? --> </a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <!-- ... navigation links ... -->
-            <li class="nav-item">
-              <a class="nav-link" href="#time">Time</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#travel-hotel">Travel and Hotel</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#submission">Submission</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#agenda">Agenda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#keynote">Keynote</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#organizing-faculty"
-                >Organizing Faculty</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#workshop-faculty">Workshop Faculty</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#workshop-participants"
-                >Workshop Participants</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#budget-breakdown">Budget Breakdown</a>
-            </li>
-          </ul>
-        </div>
+      <!-- Text Overlay -->
+      <div class="carousel-text">
+        <h1>Asian Workshop on Empirical Operations Management</h1>
+        <p>亚洲运营管理实证研究会</p>
       </div>
-    </nav>
+    </div>
 
-    <main class="container my-5">
-      <section id="time" class="mb-4">
-        <h2>Time</h2>
-        <p>January 7, 2024 (one day after POMS-HK)</p>
-      </section>
+    <main class="container-fluid my-5">
+      <div class="container_section">
+        <section id="time" class="mb-4">
+          <h2>Time</h2>
+          <p>January 7, 2024 (one day after POMS-HK)</p>
+        </section>
+      </div>
 
-      <section id="travel-hotel" class="mb-4">
-        <h2>Travel and Hotel</h2>
-        <p>
-          CUHK Business School will be the host institution for 1st workshop.
-          Participants will have to plan and pay for their own travel. We
-          recommend Hyatt Shatin under CUHK corporate rate. Please make your own
-          hotel reservations according to your preferences and budgets.
-        </p>
-      </section>
+      <div class="container_section">
+        <section id="travel-hotel" class="mb-4">
+          <h2>Travel and Hotel</h2>
+          <p>
+            CUHK Business School will be the host institution for 1st workshop.
+            Participants will have to plan and pay for their own travel. We
+            recommend Hyatt Shatin under CUHK corporate rate. Please make your
+            own hotel reservations according to your preferences and budgets.
+          </p>
+        </section>
+      </div>
 
-      <section id="submission" class="mb-4">
-        <h2>Submission</h2>
-        <p>
-          Submission (open on November 1, 2023, end on December 1, 2023): The
-          research has to be empirical in nature and be based on econometric
-          analysis. This explicitly excludes what one could broadly define as OR
-          applications. The unit of analysis and the theoretical problem can
-          vary widely yet should be of interest to the Operations Management
-          community. Approximately 9 papers will be selected for the conference
-          based on quality, innovativeness, and fit into specific modules.
-        </p>
-      </section>
+      <div class="container_section">
+        <section id="submission" class="mb-4">
+          <h2>Submission</h2>
+          <p>
+            Submission (open on November 1, 2023, end on December 1, 2023): The
+            research has to be empirical in nature and be based on econometric
+            analysis. This explicitly excludes what one could broadly define as
+            OR applications. The unit of analysis and the theoretical problem
+            can vary widely yet should be of interest to the Operations
+            Management community. Approximately 9 papers will be selected for
+            the conference based on quality, innovativeness, and fit into
+            specific modules.
+          </p>
+        </section>
+      </div>
 
-      <section id="agenda" class="mb-4">
-        <h2>Agenda</h2>
-        <div class="agenda-container">
-          <div class="agenda-item">
-            <span class="time">9:00-9:15am</span>
-            <span class="event">Opening remark</span>
+      <div class="container_section">
+        <section id="agenda" class="mb-4">
+          <h2>Agenda</h2>
+          <div class="agenda-container">
+            <div class="agenda-item">
+              <span class="time">9:00-9:15am</span>
+              <span class="event">Opening remark</span>
+            </div>
+            <div class="agenda-item">
+              <span class="time">9:15-10:15am</span>
+              <span class="event">Keynote</span>
+            </div>
+            <div class="agenda-item">
+              <span class="time">10:15-11:30am</span>
+              <span class="event">Photo session and break</span>
+            </div>
+            <div class="agenda-item">
+              <span class="time">11:30-12:30pm</span>
+              <span class="event">Session 1 (3 papers)</span>
+            </div>
+            <div class="agenda-item">
+              <span class="time">12:30-2:30pm</span>
+              <span class="event">Lunch</span>
+            </div>
+            <div class="agenda-item">
+              <span class="time">2:00-3:30pm</span>
+              <span class="event">Session 2 (3 papers)</span>
+            </div>
+            <div class="agenda-item">
+              <span class="time">3:30-4:00pm</span>
+              <span class="event">Break</span>
+            </div>
+            <div class="agenda-item">
+              <span class="time">4:00-5:30pm</span>
+              <span class="event">Session 3 (3 papers)</span>
+            </div>
+            <div class="agenda-item">
+              <span class="time">6pm</span>
+              <span class="event">Cocktail hour</span>
+            </div>
           </div>
-          <div class="agenda-item">
-            <span class="time">9:15-10:15am</span>
-            <span class="event">Keynote</span>
-          </div>
-          <div class="agenda-item">
-            <span class="time">10:15-11:30am</span>
-            <span class="event">Photo session and break</span>
-          </div>
-          <div class="agenda-item">
-            <span class="time">11:30-12:30pm</span>
-            <span class="event">Session 1 (3 papers)</span>
-          </div>
-          <div class="agenda-item">
-            <span class="time">12:30-2:30pm</span>
-            <span class="event">Lunch</span>
-          </div>
-          <div class="agenda-item">
-            <span class="time">2:00-3:30pm</span>
-            <span class="event">Session 2 (3 papers)</span>
-          </div>
-          <div class="agenda-item">
-            <span class="time">3:30-4:00pm</span>
-            <span class="event">Break</span>
-          </div>
-          <div class="agenda-item">
-            <span class="time">4:00-5:30pm</span>
-            <span class="event">Session 3 (3 papers)</span>
-          </div>
-          <div class="agenda-item">
-            <span class="time">6pm</span>
-            <span class="event">Cocktail hour</span>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
-      <section id="keynote" class="mb-4">
-        <h2>Keynote</h2>
-        <div class="row"></div>
-      </section>
+      <div class="container_section blue_bg">
+        <section id="keynote" class="mb-4">
+          <h2>Keynote</h2>
+          <div class="row"></div>
+        </section>
+      </div>
 
-      <section id="organizing-faculty" class="mb-4">
-        <h2>Organizing Faculty</h2>
-        <div class="row"></div>
-      </section>
+      <div class="container_section">
+        <section id="organizing-faculty" class="mb-4">
+          <h2>Organizing Faculty</h2>
+          <div class="row"></div>
+        </section>
+      </div>
 
-      <section id="workshop-faculty" class="mb-4">
-        <h2>Workshop Faculty</h2>
-        <div class="row"></div>
-      </section>
+      <div class="container_section blue_bg">
+        <section id="workshop-faculty" class="mb-4">
+          <h2>Workshop Faculty</h2>
+          <div class="row"></div>
+        </section>
+      </div>
+      
+      <div class="container_section">
+        <section id="workshop-participants" class="mb-4">
+          <h2>Workshop Participants</h2>
+          <div class="row"></div>
+        </section>
+      </div>
 
-      <section id="workshop-participants" class="mb-4">
-        <h2>Workshop Participants</h2>
-        <div class="row"></div>
-      </section>
-
-      <section id="budget-breakdown" class="mb-4">
-        <h2>Budget breakdown</h2>
-        <div class="budget-list">
-          <div class="budget-item">
-            <h3>Keynote</h3>
-            <p>HKD40,000</p>
+      <div class="container_section">
+        <section id="budget-breakdown" class="mb-4">
+          <h2>Budget breakdown</h2>
+          <div class="budget-list">
+            <div class="budget-item">
+              <h3>Keynote</h3>
+              <p>HKD40,000</p>
+            </div>
+            <div class="budget-item">
+              <h3>Full-day air con</h3>
+              <p>HKD13,000</p>
+            </div>
+            <div class="budget-item">
+              <h3>Bus to dinner</h3>
+              <p>HKD3,000</p>
+            </div>
+            <div class="budget-item">
+              <h3>Lunch</h3>
+              <p>HKD20,000</p>
+            </div>
+            <div class="budget-item">
+              <h3>Dinner</h3>
+              <p>HKD24,000</p>
+            </div>
           </div>
-          <div class="budget-item">
-            <h3>Full-day air con</h3>
-            <p>HKD13,000</p>
-          </div>
-          <div class="budget-item">
-            <h3>Bus to dinner</h3>
-            <p>HKD3,000</p>
-          </div>
-          <div class="budget-item">
-            <h3>Lunch</h3>
-            <p>HKD20,000</p>
-          </div>
-          <div class="budget-item">
-            <h3>Dinner</h3>
-            <p>HKD24,000</p>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
 
     <footer class="bg-dark text-white text-center py-3">
@@ -194,5 +276,15 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="scripts/faculties.js"></script>
+    <script>
+      window.addEventListener("scroll", function () {
+        var navbar = document.querySelector(".navbar");
+        if (window.scrollY > 120) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+    </script>
   </body>
 </html>
