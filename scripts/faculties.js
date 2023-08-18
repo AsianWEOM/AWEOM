@@ -82,7 +82,7 @@ const organizingFacultyData = [
   {
     name: "Weiming Zhu",
     affiliation: "HKU Business School",
-    imageSrc: "imgs/weimingzhu.webp",
+    imageSrc: "imgs/weimingzhu.jpeg",
     personalPage: "https://www.hkubs.hku.hk/people/weiming-zhu/",
   },
 ];
@@ -163,7 +163,7 @@ const workshopFacultyData = [
   {
     name: "Bhavani Uppari",
     affiliation: "SMU LKC School of Business (WJ)",
-    imageSrc: "imgs/bhavaniu.jpg",
+    imageSrc: "imgs/bhavaniu.jpeg",
     personalPage: "https://faculty.smu.edu.sg/profile/bhavani-shanker-uppari-1296",
   },
   {
@@ -190,7 +190,7 @@ const workshopParticipantData = [
   {
     name: "Jie Peng",
     affiliation: "Tongji University",
-    imageSrc: "imgs/musk.jpeg",
+    imageSrc: "imgs/jiepeng.jpeg",
     personalPage: "",
   },
 ];
