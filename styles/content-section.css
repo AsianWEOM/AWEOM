@@ -2,12 +2,12 @@
   padding: 20px 18vw;
 }
 
-.blue_bg {
-  background-color: #f5faff;
+.distinct-bg {
+  background-color: #e8e8e8; 
   transition: background-color 0.3s ease-in-out;
 }
-.blue_bg:hover {
-  background: linear-gradient(to bottom, #f5faff, #e2ebff);
+.distinct-bg:hover {
+  background: linear-gradient(to bottom, #e8e8e8, #c4c4c4);
 }
 
 @media (max-width: 1600px) {
