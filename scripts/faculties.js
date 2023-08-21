@@ -162,7 +162,7 @@ const workshopFacultyData = [
   },
   {
     name: "Bhavani Uppari",
-    affiliation: "SMU LKC School of Business",
+    affiliation: "SMU Lee Kong Chian School of Business",
     imageSrc: "imgs/bhavaniu.jpeg",
     personalPage: "https://faculty.smu.edu.sg/profile/bhavani-shanker-uppari-1296",
   },
