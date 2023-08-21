@@ -126,13 +126,13 @@ const workshopFacultyData = [
   },
   {
     name: "Ying Rong",
-    affiliation: "SJTU Antai School of Management",
+    affiliation: "SJTU Antai College of Economics and Management",
     imageSrc: "imgs/yingrong.gif",
     personalPage: "https://www.acem.sjtu.edu.cn/en/faculty/rongying.html",
   },
   {
     name: "Huan Zheng",
-    affiliation: "SJTU Antai School of Management",
+    affiliation: "SJTU Antai College of Economics and Management",
     imageSrc: "imgs/huanzheng.gif",
     personalPage: "https://www.acem.sjtu.edu.cn/en/faculty/zhenghuan.html",
   },
@@ -162,7 +162,7 @@ const workshopFacultyData = [
   },
   {
     name: "Bhavani Uppari",
-    affiliation: "SMU LKC School of Business",
+    affiliation: "SMU Lee Kong Chian School of Business",
     imageSrc: "imgs/bhavaniu.jpeg",
     personalPage: "https://faculty.smu.edu.sg/profile/bhavani-shanker-uppari-1296",
   },
@@ -189,7 +189,7 @@ const workshopFacultyData = [
 const workshopParticipantData = [
   {
     name: "Jie Peng",
-    affiliation: "Tongji University",
+    affiliation: "Tongji University Advanced Institute of Business",
     imageSrc: "imgs/jiepeng.jpeg",
     personalPage: "",
   },
