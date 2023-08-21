@@ -108,7 +108,7 @@ const workshopFacultyData = [
   },
   {
     name: "Hanwei Li",
-    affiliation: "City University of Hong Kong",
+    affiliation: "CityUHK College of Business",
     imageSrc: "imgs/hanweili.jpg",
     personalPage: "https://www.cb.cityu.edu.hk/ms/about-us/faculty-and-staff/prof-li-hanwei",
   },
