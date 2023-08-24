@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    image: aweom/weom-webpage
+    ports:
+      - "8080:80"
+    networks:
+      - webpage-net
+
+networks:
+  webpage-net:
