@@ -199,4 +199,4 @@ const workshopParticipantData = [
 addFacultyCards("keynote", keynoteData);
 addFacultyCards("organizing-faculty", organizingFacultyData);
 addFacultyCards("workshop-faculty", workshopFacultyData);
-addFacultyCards("workshop-participants", workshopParticipantData);
+//addFacultyCards("workshop-participants", workshopParticipantData);
