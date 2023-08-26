@@ -122,9 +122,9 @@ const workshopFacultyData = [
   
   {
     name: "Shenyang Jiang",
-    affiliation: "Tongji University School of Economics and Management",
-    imageSrc: "",
-    personalPage: "",
+    affiliation: "Tongji University Advanced Institute of Business",
+    imageSrc: "imgs/shenyangjiang.jpg",
+    personalPage: "https://aib.tongji.edu.cn/e7/d1/c18709a255953/page.htm",
   },
 
   
