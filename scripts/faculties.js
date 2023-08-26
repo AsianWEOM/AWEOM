@@ -43,19 +43,19 @@ function addFacultyCards(sectionId, facultyData) {
 }
 
 const keynoteData = [
-  {
-    name: "Karan Girotra",
-    affiliation: "Cornell University",
-    imageSrc: "imgs/karan-girotra.jpg",
-    personalPage: "https://tech.cornell.edu/people/karan-girotra/",
-  },
-  {
-    name: "Kamalini Ramdas",
-    affiliation: "London Business School",
-    imageSrc: "imgs/kamalini-ramdas.avif",
-    personalPage:
-      "https://www.london.edu/faculty-and-research/faculty-profiles/r/ramdas-k#",
-  },
+ //{
+ //   name: "Karan Girotra",
+ //   affiliation: "Cornell University",
+ //   imageSrc: "imgs/karan-girotra.jpg",
+ //   personalPage: "https://tech.cornell.edu/people/karan-girotra/",
+ // },
+ // {
+ //   name: "Kamalini Ramdas",
+ //   affiliation: "London Business School",
+ //   imageSrc: "imgs/kamalini-ramdas.avif",
+ //   personalPage:
+ //     "https://www.london.edu/faculty-and-research/faculty-profiles/r/ramdas-k#",
+ // }, 
   {
     name: "Jun Li",
     affiliation: "Michigan Ross",
@@ -89,65 +89,12 @@ const organizingFacultyData = [
 
 const workshopFacultyData = [
   {
-    name: "Renyu Zhang",
-    affiliation: "CUHK Business School",
-    imageSrc: "imgs/renyuzhang.jpg",
-    personalPage: "https://www.bschool.cuhk.edu.hk/staff/zhang-philip-renyu/",
+    name: "Kashish Arora",
+    affiliation: "Indian School of Business",
+    imageSrc: "imgs/kashish.png",
+    personalPage: "https://kashisharora.info/",
   },
-  {
-    name: "Liu Ming",
-    affiliation: "CUHK (Shenzhen) School of Management and Economics",
-    imageSrc: "imgs/liuming.jpg",
-    personalPage: "https://jdlab.cuhk.edu.cn/en/content/4057",
-  },
-  {
-    name: "Jingqi Wang",
-    affiliation: "CUHK (Shenzhen) School of Management and Economics",
-    imageSrc: "imgs/jingqiwang.jpg",
-    personalPage: "https://myweb.cuhk.edu.cn/wangjingqi",
-  },
-  {
-    name: "Hanwei Li",
-    affiliation: "CityUHK College of Business",
-    imageSrc: "imgs/hanweili.jpg",
-    personalPage: "https://www.cb.cityu.edu.hk/ms/about-us/faculty-and-staff/prof-li-hanwei",
-  },
-  {
-    name: "Yiwei Shen",
-    affiliation: "HKUST Business School",
-    imageSrc: "imgs/yiweishen.jpg",
-    personalPage: "https://isom.hkust.edu.hk/faculty-and-staff/directory/yiwenshen",
-  },
-  {
-    name: "Xiaole Wu",
-    affiliation: "Fudan University School of Management",
-    imageSrc: "imgs/xiaolewu.jpg",
-    personalPage: "https://www.fdsm.fudan.edu.cn/En/preview.html?UID=012083",
-  },
-  {
-    name: "Ying Rong",
-    affiliation: "SJTU Antai College of Economics and Management",
-    imageSrc: "imgs/yingrong.gif",
-    personalPage: "https://www.acem.sjtu.edu.cn/en/faculty/rongying.html",
-  },
-  {
-    name: "Huan Zheng",
-    affiliation: "SJTU Antai College of Economics and Management",
-    imageSrc: "imgs/huanzheng.gif",
-    personalPage: "https://www.acem.sjtu.edu.cn/en/faculty/zhenghuan.html",
-  },
-  {
-    name: "Wenzheng Mao",
-    affiliation: "Tongji University Advanced Institute of Business",
-    imageSrc: "imgs/wenzhengmao.jpg",
-    personalPage: "https://aib.tongji.edu.cn/d5/ee/c17222a185838/page.htm",
-  },
-  {
-    name: "Kejia Hu",
-    affiliation: "China Europe International Business School",
-    imageSrc: "imgs/kejiahu.jpg",
-    personalPage: "https://www.ceibs.edu/kejia_hu",
-  },
+
   {
     name: "Sidika Candogan",
     affiliation: "NUS Business School",
@@ -159,6 +106,57 @@ const workshopFacultyData = [
     affiliation: "NTU Business School",
     imageSrc: "imgs/vivek.png",
     personalPage: "https://sites.google.com/view/vkchoudhary",
+  }, 
+  {
+    name: "Sarang Deo",
+    affiliation: "Indian School of Business",
+    imageSrc: "imgs/deo.jpg",
+    personalPage: "https://www.isb.edu/en/research-thought-leadership/faculty/faculty-directory/sarang-deo.html",
+  },
+  {
+    name: "Kejia Hu",
+    affiliation: "China Europe International Business School",
+    imageSrc: "imgs/kejiahu.jpg",
+    personalPage: "https://www.ceibs.edu/kejia_hu",
+  },
+  
+  {
+    name: "Shenyang Jiang",
+    affiliation: "Tongji University School of Economics and Management",
+    imageSrc: "",
+    personalPage: "",
+  },
+
+  
+  {
+    name: "Hanwei Li",
+    affiliation: "CityUHK College of Business",
+    imageSrc: "imgs/hanweili.jpg",
+    personalPage: "https://www.cb.cityu.edu.hk/ms/about-us/faculty-and-staff/prof-li-hanwei",
+  },
+  {
+    name: "Wenzheng Mao",
+    affiliation: "Tongji University Advanced Institute of Business",
+    imageSrc: "imgs/wenzhengmao.jpg",
+    personalPage: "https://aib.tongji.edu.cn/d5/ee/c17222a185838/page.htm",
+  },
+  {
+    name: "Liu Ming",
+    affiliation: "CUHK (Shenzhen) School of Management and Economics",
+    imageSrc: "imgs/liuming.jpg",
+    personalPage: "https://jdlab.cuhk.edu.cn/en/content/4057",
+  },
+ {
+    name: "Ying Rong",
+    affiliation: "SJTU Antai College of Economics and Management",
+    imageSrc: "imgs/yingrong.gif",
+    personalPage: "https://www.acem.sjtu.edu.cn/en/faculty/rongying.html",
+  },
+  {
+    name: "Yiwei Shen",
+    affiliation: "HKUST Business School",
+    imageSrc: "imgs/yiweishen.jpg",
+    personalPage: "https://isom.hkust.edu.hk/faculty-and-staff/directory/yiwenshen",
   },
   {
     name: "Bhavani Uppari",
@@ -167,23 +165,38 @@ const workshopFacultyData = [
     personalPage: "https://faculty.smu.edu.sg/profile/bhavani-shanker-uppari-1296",
   },
   {
+    name: "Jingqi Wang",
+    affiliation: "CUHK (Shenzhen) School of Management and Economics",
+    imageSrc: "imgs/jingqiwang.jpg",
+    personalPage: "https://myweb.cuhk.edu.cn/wangjingqi",
+  },
+   {
     name: "Kim Sang Won",
     affiliation: "KAIST College of Business",
     imageSrc: "imgs/kim.jpg",
     personalPage: "https://www.business.kaist.edu/faculty/sk2559",
-  },
+  }, 
   {
-    name: "Kashish Arora",
-    affiliation: "Indian School of Business",
-    imageSrc: "imgs/kashish.png",
-    personalPage: "https://kashisharora.info/",
+    name: "Xiaole Wu",
+    affiliation: "Fudan University School of Management",
+    imageSrc: "imgs/xiaolewu.jpg",
+    personalPage: "https://www.fdsm.fudan.edu.cn/En/preview.html?UID=012083",
   },
+  
   {
-    name: "Sarang Deo",
-    affiliation: "Indian School of Business",
-    imageSrc: "imgs/deo.jpg",
-    personalPage: "https://www.isb.edu/en/research-thought-leadership/faculty/faculty-directory/sarang-deo.html",
+    name: "Renyu Zhang",
+    affiliation: "CUHK Business School",
+    imageSrc: "imgs/renyuzhang.jpg",
+    personalPage: "https://www.bschool.cuhk.edu.hk/staff/zhang-philip-renyu/",
   },
+  
+  {
+    name: "Huan Zheng",
+    affiliation: "SJTU Antai College of Economics and Management",
+    imageSrc: "imgs/huanzheng.gif",
+    personalPage: "https://www.acem.sjtu.edu.cn/en/faculty/zhenghuan.html",
+  },
+
 ];
 
 const workshopParticipantData = [
