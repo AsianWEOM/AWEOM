@@ -200,7 +200,7 @@ const workshopFacultyData = [
   {
     name: "Weihua Zhou",
     affiliation: "Zhejiang University School of Management",
-    imageSrc: "imgs/weihuazhou.gif",
+    imageSrc: "imgs/weihuazhou.jpg",
     personalPage: "https://person.zju.edu.cn/whzhou",
   },
   
