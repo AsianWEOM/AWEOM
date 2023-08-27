@@ -196,7 +196,14 @@ const workshopFacultyData = [
     imageSrc: "imgs/huanzheng.gif",
     personalPage: "https://www.acem.sjtu.edu.cn/en/faculty/zhenghuan.html",
   },
-
+  
+  {
+    name: "Weihua Zhou",
+    affiliation: "Zhejiang University School of Management",
+    imageSrc: "imgs/weihuazhou.gif",
+    personalPage: "https://person.zju.edu.cn/whzhou",
+  },
+  
 ];
 
 const workshopParticipantData = [
