@@ -75,7 +75,7 @@ const organizingFacultyData = [
   {
     name: "Hsiao-hui Lee",
     affiliation: "National Chengchi University",
-    imageSrc: "imgs/hsiaohuili2.jpg",
+    imageSrc: "imgs/hsiaohuili2.png",
     personalPage:
       "https://mis2.nccu.edu.tw/en/Faculty/Faculty_01/Hsiao-Hui-Lee-11933204",
   },
