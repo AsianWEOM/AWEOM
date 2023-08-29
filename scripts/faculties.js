@@ -111,7 +111,7 @@ const workshopFacultyData = [
   {
     name: "Hao-Chun Chuang",
     affiliation: "National Chengchi University",
-    imageSrc: "imgs/haochunchuang.png",
+    imageSrc: "imgs/haochunchuang.jpg",
     personalPage: "https://imba.nccu.edu.tw/en/faculty/IMBAFaculty/Howard_Hao_Chun_Chuang",
   }, 
       
