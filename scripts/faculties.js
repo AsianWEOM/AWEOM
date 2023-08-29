@@ -69,13 +69,13 @@ const organizingFacultyData = [
   {
     name: "Jing Wu",
     affiliation: "CUHK Business School (Workshop Chair)",
-    imageSrc: "imgs/jingwu.jpg",
+    imageSrc: "imgs/jingwu2.jpg",
     personalPage: "https://www.jingwulab.org/",
   },
   {
     name: "Hsiao-hui Lee",
     affiliation: "National Chengchi University",
-    imageSrc: "imgs/hsiaohuili.jpg",
+    imageSrc: "imgs/hsiaohuili2.jpg",
     personalPage:
       "https://mis2.nccu.edu.tw/en/Faculty/Faculty_01/Hsiao-Hui-Lee-11933204",
   },
@@ -107,6 +107,14 @@ const workshopFacultyData = [
     imageSrc: "imgs/vivek.png",
     personalPage: "https://sites.google.com/view/vkchoudhary",
   }, 
+
+  {
+    name: "Hao-Chun Chuang",
+    affiliation: "National Chengchi University",
+    imageSrc: "imgs/haochunchuang.png",
+    personalPage: "https://imba.nccu.edu.tw/en/faculty/IMBAFaculty/Howard_Hao_Chun_Chuang",
+  }, 
+      
   {
     name: "Sarang Deo",
     affiliation: "Indian School of Business",
@@ -126,8 +134,13 @@ const workshopFacultyData = [
     imageSrc: "imgs/shenyangjiang.jpg",
     personalPage: "https://aib.tongji.edu.cn/e7/d1/c18709a255953/page.htm",
   },
-
-  
+ 
+  {
+    name: "Sang Won Kim",
+    affiliation: "KAIST College of Business",
+    imageSrc: "imgs/kim.jpg",
+    personalPage: "https://www.business.kaist.edu/faculty/sk2559",
+  }, 
   {
     name: "Hanwei Li",
     affiliation: "CityUHK College of Business",
@@ -170,12 +183,7 @@ const workshopFacultyData = [
     imageSrc: "imgs/jingqiwang.jpg",
     personalPage: "https://myweb.cuhk.edu.cn/wangjingqi",
   },
-   {
-    name: "Kim Sang Won",
-    affiliation: "KAIST College of Business",
-    imageSrc: "imgs/kim.jpg",
-    personalPage: "https://www.business.kaist.edu/faculty/sk2559",
-  }, 
+
   {
     name: "Xiaole Wu",
     affiliation: "Fudan University School of Management",
