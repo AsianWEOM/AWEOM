@@ -42,7 +42,7 @@ function addFacultyCards(sectionId, facultyData) {
   section.appendChild(row);
 }
 
-//const keynoteData = [
+const keynoteData = [
  //{
  //   name: "Karan Girotra",
  //   affiliation: "Cornell University",
@@ -56,14 +56,21 @@ function addFacultyCards(sectionId, facultyData) {
  //   personalPage:
  //     "https://www.london.edu/faculty-and-research/faculty-profiles/r/ramdas-k#",
  // }, 
-//  {
-//    name: "Jun Li",
-//    affiliation: "Michigan Ross",
-//    imageSrc: "imgs/junli.aspx",
-//    personalPage:
-//      "https://michiganross.umich.edu/faculty-research/faculty/jun-li",
-//  },
-//];
+  {
+    name: "Christopher S. Tang",
+    affiliation: "UCLA Anderson School of Management",
+    imageSrc: "imgs/christang.jpg",
+    personalPage:
+      "https://www.anderson.ucla.edu/faculty-and-research/decisions-operations-and-technology-management/faculty/tang",
+  },
+  {
+    name: "Jun Li",
+    affiliation: "Michigan Ross",
+    imageSrc: "imgs/junli.aspx",
+    personalPage:
+      "https://michiganross.umich.edu/faculty-research/faculty/jun-li",
+  },
+];
 
 const organizingFacultyData = [
   {
