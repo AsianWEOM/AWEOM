@@ -231,7 +231,7 @@ const workshopParticipantData = [
 ];
 
 // Add faculty cards to respective sections
-//addFacultyCards("keynote", keynoteData);
+addFacultyCards("keynote", keynoteData);
 addFacultyCards("organizing-faculty", organizingFacultyData);
 addFacultyCards("workshop-faculty", workshopFacultyData);
 //addFacultyCards("workshop-participants", workshopParticipantData);
