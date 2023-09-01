@@ -178,18 +178,20 @@ const workshopFacultyData = [
     imageSrc: "imgs/yiweishen.jpg",
     personalPage: "https://isom.hkust.edu.hk/faculty-and-staff/directory/yiwenshen",
   },
-  {
-    name: "Bhavani Uppari",
-    affiliation: "SMU Lee Kong Chian School of Business",
-    imageSrc: "imgs/bhavaniu.jpeg",
-    personalPage: "https://faculty.smu.edu.sg/profile/bhavani-shanker-uppari-1296",
-  },
-  {
-    name: "Jingqi Wang",
-    affiliation: "CUHK (Shenzhen) School of Management and Economics",
-    imageSrc: "imgs/jingqiwang.jpg",
-    personalPage: "https://myweb.cuhk.edu.cn/wangjingqi",
-  },
+  
+  //{
+  //  name: "Bhavani Uppari",
+  //  affiliation: "SMU Lee Kong Chian School of Business",
+  //  imageSrc: "imgs/bhavaniu.jpeg",
+  //  personalPage: "https://faculty.smu.edu.sg/profile/bhavani-shanker-uppari-1296",
+  //},
+  
+  //{
+  //  name: "Jingqi Wang",
+  //  affiliation: "CUHK (Shenzhen) School of Management and Economics",
+  //  imageSrc: "imgs/jingqiwang.jpg",
+  //  personalPage: "https://myweb.cuhk.edu.cn/wangjingqi",
+  //},
 
   {
     name: "Xiaole Wu",
@@ -205,12 +207,12 @@ const workshopFacultyData = [
     personalPage: "https://www.bschool.cuhk.edu.hk/staff/zhang-philip-renyu/",
   },
   
-  {
-    name: "Huan Zheng",
-    affiliation: "SJTU Antai College of Economics and Management",
-    imageSrc: "imgs/huanzheng.gif",
-    personalPage: "https://www.acem.sjtu.edu.cn/en/faculty/zhenghuan.html",
-  },
+  //{
+  //  name: "Huan Zheng",
+  //  affiliation: "SJTU Antai College of Economics and Management",
+  //  imageSrc: "imgs/huanzheng.gif",
+  //  personalPage: "https://www.acem.sjtu.edu.cn/en/faculty/zhenghuan.html",
+  //},
   
   {
     name: "Weihua Zhou",
