@@ -199,6 +199,13 @@ const workshopFacultyData = [
     imageSrc: "imgs/xiaolewu.jpg",
     personalPage: "https://www.fdsm.fudan.edu.cn/En/preview.html?UID=012083",
   },
+
+  {
+    name: "Liang Xu",
+    affiliation: "SMU Lee Kong Chian School of Business",
+    imageSrc: "imgs/liangxu.jpg",
+    personalPage: "https://business.smu.edu.sg/faculty/profile/6566/xu-liang",
+  },
   
   {
     name: "Renyu Zhang",
