@@ -135,12 +135,12 @@ const workshopFacultyData = [
     personalPage: "https://www.ceibs.edu/kejia_hu",
   },
   
-  {
-    name: "Shenyang Jiang",
-    affiliation: "Tongji University Advanced Institute of Business",
-    imageSrc: "imgs/shenyangjiang.jpg",
-    personalPage: "https://aib.tongji.edu.cn/e7/d1/c18709a255953/page.htm",
-  },
+  //{
+  //  name: "Shenyang Jiang",
+  //  affiliation: "Tongji University Advanced Institute of Business",
+  //  imageSrc: "imgs/shenyangjiang.jpg",
+  //  personalPage: "https://aib.tongji.edu.cn/e7/d1/c18709a255953/page.htm",
+  //},
  
   {
     name: "Sang Won Kim",
@@ -206,6 +206,13 @@ const workshopFacultyData = [
     imageSrc: "imgs/liangxu.jpg",
     personalPage: "https://business.smu.edu.sg/faculty/profile/6566/xu-liang",
   },
+
+  {
+    name: "Yuxiao Ye",
+    affiliation: "Tianjin University College of Management and Economics",
+    imageSrc: "imgs/yuxiaoye.jpg",
+    personalPage: "http://come.tju.edu.cn/info/1585/6212.htm",
+  }, 
   
   {
     name: "Renyu Zhang",
