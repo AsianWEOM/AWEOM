@@ -130,7 +130,7 @@ const workshopFacultyData = [
   },
   {
     name: "Kejia Hu",
-    affiliation: "China Europe International Business School",
+    affiliation: "Oxford University Saïd Business School",
     imageSrc: "imgs/kejiahu.jpg",
     personalPage: "https://www.ceibs.edu/kejia_hu",
   },
@@ -228,12 +228,12 @@ const workshopFacultyData = [
   //  personalPage: "https://www.acem.sjtu.edu.cn/en/faculty/zhenghuan.html",
   //},
   
-  //{
-  //  name: "Weihua Zhou",
-  //  affiliation: "Zhejiang University School of Management",
-  //  imageSrc: "imgs/weihuazhou.jpg",
-  //  personalPage: "https://person.zju.edu.cn/whzhou",
-  //},
+  {
+    name: "Weihua Zhou",
+    affiliation: "Zhejiang University School of Management",
+    imageSrc: "imgs/weihuazhou.jpg",
+    personalPage: "https://person.zju.edu.cn/whzhou",
+  },
   
 ];
 
