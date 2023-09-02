@@ -128,11 +128,19 @@ const workshopFacultyData = [
     imageSrc: "imgs/deo.jpg",
     personalPage: "https://www.isb.edu/en/research-thought-leadership/faculty/faculty-directory/sarang-deo.html",
   },
+
+  {
+    name: "Shuai Hao",
+    affiliation: "Southern University of Science and Technology",
+    imageSrc: "imgs/shuaihao.jpg",
+    personalPage: "",
+  },
+  
   {
     name: "Kejia Hu",
     affiliation: "Oxford University Saïd Business School",
     imageSrc: "imgs/kejiahu.jpg",
-    personalPage: "https://www.ceibs.edu/kejia_hu",
+    personalPage: "https://www.kejiahu.com/",
   },
   
   //{
@@ -141,7 +149,14 @@ const workshopFacultyData = [
   //  imageSrc: "imgs/shenyangjiang.jpg",
   //  personalPage: "https://aib.tongji.edu.cn/e7/d1/c18709a255953/page.htm",
   //},
- 
+
+  {
+    name: "Jussi Keppo",
+    affiliation: "NUS Business School",
+    imageSrc: "imgs/jussikeppo.jpg",
+    personalPage: "https://bizfaculty.nus.edu.sg/faculty-details/?profId=314",
+  }, 
+  
   {
     name: "Sang Won Kim",
     affiliation: "KAIST College of Business",
