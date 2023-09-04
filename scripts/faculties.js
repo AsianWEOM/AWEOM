@@ -225,7 +225,7 @@ const workshopFacultyData = [
   {
     name: "Yuxiao Ye",
     affiliation: "Tianjin University College of Management and Economics",
-    imageSrc: "imgs/yuxiaoye.jpg",
+    imageSrc: "imgs/yuxiaoye.JPG",
     personalPage: "http://come.tju.edu.cn/info/1585/6212.htm",
   }, 
   
