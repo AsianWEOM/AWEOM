@@ -207,7 +207,13 @@ const workshopFacultyData = [
   //  imageSrc: "imgs/jingqiwang.jpg",
   //  personalPage: "https://myweb.cuhk.edu.cn/wangjingqi",
   //},
-
+  
+  {
+    name: "Yulan Wang",
+    affiliation: "PolyU Business School",
+    imageSrc: "imgs/amanda.png",
+    personalPage: "https://www.polyu.edu.hk/lms/people/academic-staff/yulan-wang/",
+  },
   {
     name: "Xiaole Wu",
     affiliation: "Fudan University School of Management",
