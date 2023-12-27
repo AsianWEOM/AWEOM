@@ -207,6 +207,12 @@ const workshopFacultyData = [
   //  imageSrc: "imgs/jingqiwang.jpg",
   //  personalPage: "https://myweb.cuhk.edu.cn/wangjingqi",
   //},
+  {
+    name: "Chun Wang",
+    affiliation: "Tsinghua University",
+    imageSrc: "imgs/Chun Wang.png",
+    personalPage: "https://www.sem.tsinghua.edu.cn/en/info/1219/3672.htm",
+  },
   
   {
     name: "Yulan Wang",
