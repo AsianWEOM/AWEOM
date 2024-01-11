@@ -121,7 +121,13 @@ const workshopFacultyData = [
   //  imageSrc: "imgs/haochunchuang.jpg",
   //  personalPage: "https://imba.nccu.edu.tw/en/faculty/IMBAFaculty/Howard_Hao_Chun_Chuang",
   //}, 
-      
+  {
+    name: "Hongyan Dai",
+    affiliation: "Central University of Finance and Economics",
+    imageSrc: "imgs/Hongyan Dai.png",
+    personalPage: "https://bs.cufe.edu.cn/info/1063/1926.htm",
+  },
+  
   {
     name: "Sarang Deo",
     affiliation: "Indian School of Business",
